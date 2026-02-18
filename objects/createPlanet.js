@@ -1,7 +1,7 @@
 // Ce fichier crée une planète 3D avec rotation et orbite autour d’un point
 
 import { Object3D, MathUtils } from 'three'; // On importe des outils de Three.js
-import Sphere from '../components/Sphere';   // On importe un composant "Sphere" qui crée une sphère 3D
+import Sphere from '../components/sphere';   // On importe un composant "Sphere" qui crée une sphère 3D
 
 export default function createPlanet(
   scene,            // La scène 3D où on ajoute la planète

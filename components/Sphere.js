@@ -7,7 +7,7 @@ import {
 } from 'three';
 
 // On exporte une classe Sphere qui hérite de Mesh
-export default class Sphere extends Mesh {
+export default class sphere extends Mesh {
   /**
    * @param {number} radius - Le rayon de la sphère
    * @param {string|null} texturePath - Le chemin vers l'image de texture (optionnel)

@@ -1,6 +1,6 @@
 // Ce fichier crée le Soleil dans la scène
 
-import Sphere from '../components/Sphere'; // Import de la fonction pour créer une sphère texturée
+import Sphere from '../components/sphere'; // Import de la fonction pour créer une sphère texturée
 
 export default function createSun(scene, clickablePlanets) {
   // On crée une grosse sphère pour représenter le Soleil

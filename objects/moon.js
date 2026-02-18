@@ -1,7 +1,7 @@
 // Ce fichier crée une Lune qui orbite autour de la planète Terre dans la scène 3D
 
 import { Object3D } from 'three';     // Import d’un conteneur vide 3D pour créer un pivot
-import Sphere from '../components/Sphere'; // Import du composant pour créer une sphère 3D
+import Sphere from '../components/sphere'; // Import du composant pour créer une sphère 3D
 
 export default function createMoon(
   earthPlanet,       // La planète Terre autour de laquelle la Lune va tourner

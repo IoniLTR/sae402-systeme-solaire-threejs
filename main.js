@@ -1,7 +1,7 @@
 // On importe les modules principaux de Three.js, ainsi que plusieurs fichiers spécifiques à notre projet
 import * as THREE from 'three';
 
-import Sphere from './components/Sphere.js';                 // Composant sphère 3D
+import sphere from './components/sphere.js';                 // Composant sphère 3D
 import createLight from './systems/light.js';                 // Fonction pour créer l'éclairage
 import createBackground from './systems/background.js';       // Fonction pour créer un fond visuel
 import init from './systems/init.js';                         // Fonction d'initialisation de la scène (caméra, renderer, etc.)
